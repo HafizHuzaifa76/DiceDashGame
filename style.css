@@ -52,3 +52,18 @@ footer {
     color: white;
     margin-top: 20px;
 }
+
+.image-row {
+    display: flex;
+    justify-content: center; /* Center images horizontally */
+    gap: 10px; /* Add spacing between images */
+    flex-wrap: wrap; /* Make the row wrap to the next line if needed */
+    margin: 20px 0;
+}
+
+.image-row img {
+    width: 150px; /* Set a fixed width */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #ccc; /* Optional border */
+    border-radius: 8px; /* Optional rounded corners */
+}
